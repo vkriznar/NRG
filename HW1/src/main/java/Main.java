@@ -1,5 +1,4 @@
 import java.io.*;
-import java.nio.ByteBuffer;
 import java.util.ArrayList;
 
 public class Main {
@@ -10,6 +9,8 @@ public class Main {
         Octree octree = null;
         ArrayList<Point> data = storeInputFile();
         Shepards shepards = new Shepards(p, r, method);
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(System.out);
+        DataOutputStream dataOutputStream = new DataOutputStream(bufferedOutputStream);
 
         // If method is modified Shephard's algorithm then create octree and feed points into it
         if (method.equals("modified")) {
@@ -33,7 +34,7 @@ public class Main {
                     float value = shepards.run(point, data);
                     if (Float.isNaN(value)) value = 0;
 
-                    System.out.write(ByteBuffer.allocate(4).putFloat(value).array());
+                    dataOutputStream.writeFloat(value);
                 }
             }
         }

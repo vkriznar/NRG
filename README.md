@@ -2,7 +2,7 @@
 Repository for all homework assignments for class NRG
 
 # Homework 1
-Point interpolation using Shepard's methods and Octree
+Point interpolation using Shepard's methods and Octree. You will find two example files in the HW1/data folder whoose values have been converted to uint8's, one for basic and one for modified method.
 
 ## How to run
 1. Checkout repository with ``git clone git@github.com:vkriznar/NRG.git``

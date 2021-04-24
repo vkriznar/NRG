@@ -10,3 +10,18 @@ Point interpolation using Shepard's methods and Octree. You will find two exampl
 3. Compile java code ``javac Main.java``
 4. Run for basic method ``java Main < ../../../data/input1k.txt > ../../../data/output.raw --method basic --p 0.5 --min-x -1.5 --min-y -1.5 --min-z -1 --max-x 1.5 --max-y 1.5 --max-z 1 --res-x 128 --res-y 128 --res-z 64``
 5. Run for modified method ``java Main < ../../../data/input1k.txt > ../../../data/output.raw --method modified --r 0.5 --min-x -1.5 --min-y -1.5 --min-z -1 --max-x 1.5 --max-y 1.5 --max-z 1 --res-x 128 --res-y 128 --res-z 64``
+
+# Homework 2
+Ray tracing algorithm implemented with PathTracerFramework in C#. Changes are made in following files inside ``HW2/PathTracerFramework``
+- ``PathTracer.cs``
+- ``Helpers/Samplers.cs``
+- ``MaterialsLight/OrenNayar.cs``
+- ``Primitives/Sphere.cs``
+
+Following images are example renders.
+1. Lambertian material with disk light
+![Lambertian-Disk](./HW2/Images/render1.png)
+2. Oren-Nayar material with disk light. We can see that the edges are more nicely defined.
+![OrenNayar-Disk](./HW2/Images/render2.png)
+3. Oren-Nayar material with sphere light. Although it looks a bit more ricey, we can see the walls are much more lighted.
+![OrenNayar-Disk](./HW2/Images/render3.png)

@@ -20,8 +20,8 @@ Ray tracing algorithm implemented with PathTracerFramework in C#. Changes are ma
 
 Following images are example renders.
 1. Lambertian material with disk light
-![Lambertian-Disk](./HW2/Images/render1.png)
+![Lambertian-Disk](./HW2/Images/render1.PNG)
 2. Oren-Nayar material with disk light. We can see that the edges are more nicely defined.
-![OrenNayar-Disk](./HW2/Images/render2.png)
+![OrenNayar-Disk](./HW2/Images/render2.PNG)
 3. Oren-Nayar material with sphere light. Although it looks a bit more ricey, we can see the walls are much more lighted.
-![OrenNayar-Disk](./HW2/Images/render3.png)
+![OrenNayar-Disk](./HW2/Images/render3.PNG)

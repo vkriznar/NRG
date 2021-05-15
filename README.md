@@ -34,7 +34,7 @@ Following images are example renders.
 # Homework 3
 Animation script implemented in python that as input recieves a set of polygonal objects stored in OBJ waveform file, and the timestamps at which these models have to be shown. Interpolation was done using Catmull-Rom splines. Framerate can be modyfied by user.
 
-Following are four different animations.
+Following are four different animations (Click on picture to play the animation).
 
 [![Animation 1](https://i.imgur.com/rdK5Ckq.png)](https://youtu.be/jD_T3wo6atE)
 

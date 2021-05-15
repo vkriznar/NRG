@@ -36,10 +36,10 @@ Animation script implemented in python that as input recieves a set of polygonal
 
 Following are four different animations.
 
-[![Animation 1](https://i.imgur.com/rdK5Ckq.png[/img])](https://youtu.be/jD_T3wo6atE)
+[![Animation 1](https://i.imgur.com/rdK5Ckq.png)](https://youtu.be/jD_T3wo6atE)
 
-[![Animation 2](https://i.imgur.com/rdK5Ckq.png[/img])](https://youtu.be/RsOoyzoU0Vw)
+[![Animation 2](https://i.imgur.com/d22FBT3.png)](https://youtu.be/RsOoyzoU0Vw)
 
-[![Animation 3](https://i.imgur.com/cx3sMOK.png[/img])](https://youtu.be/NUGN497uQ28)
+[![Animation 3](https://i.imgur.com/rdK5Ckq.png)](https://youtu.be/NUGN497uQ28)
 
-[![Animation 4](https://i.imgur.com/PjlkkKo.png[/img])](https://youtu.be/PkSN55UsFwI)
+[![Animation 4](https://i.imgur.com/Q58NZCx.png)](https://youtu.be/PkSN55UsFwI)

@@ -30,3 +30,16 @@ Following images are example renders.
 3. Oren-Nayar material with sphere light. Although it looks a bit more ricey, we can see the walls are much more lighted.
 
 ![OrenNayar-Disk](./HW2/Images/render3.PNG)
+
+# Homework 3
+Animation script implemented in python that as input recieves a set of polygonal objects stored in OBJ waveform file, and the timestamps at which these models have to be shown. Interpolation was done using Catmull-Rom splines. Framerate can be modyfied by user.
+
+Following are four different animations.
+
+[![Animation 1](https://i.imgur.com/rdK5Ckq.png[/img])](https://youtu.be/jD_T3wo6atE)
+
+[![Animation 2](https://i.imgur.com/rdK5Ckq.png[/img])](https://youtu.be/RsOoyzoU0Vw)
+
+[![Animation 3](https://i.imgur.com/cx3sMOK.png[/img])](https://youtu.be/NUGN497uQ28)
+
+[![Animation 4](https://i.imgur.com/PjlkkKo.png[/img])](https://youtu.be/PkSN55UsFwI)

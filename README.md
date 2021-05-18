@@ -43,3 +43,8 @@ Following are four different animations (Click on picture to play the animation)
 [![Animation 3](https://i.imgur.com/rdK5Ckq.png)](https://youtu.be/NUGN497uQ28)
 
 [![Animation 4](https://i.imgur.com/Q58NZCx.png)](https://youtu.be/PkSN55UsFwI)
+
+And lastly the derivation of the Catmull-Rom splines equation.
+
+![Catmull-Rom-derivation](./HW3/Catmull-Rom-derivation.jpg)
+
